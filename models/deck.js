@@ -1,7 +1,6 @@
 const mongoose = require("mongoose")
 
 const DeckSchema = mongoose.Schema({
-    _id: mongoose.Schema.Types.ObjectId,
     numero:{
         type: String,
         required: true
