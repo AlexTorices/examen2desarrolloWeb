@@ -3,10 +3,6 @@ const mongoose = require("mongoose")
 const deckRoutes = require("./routes/deck")
 
 //URI=> usuario:password@ip:puerto/bd_nombre?authSource=db_usuarios
-mongoose.connect('mongodb://user3:root@54.234.54.143:27017/base3?authSource=base3')
-    .then(()=>console.log("Conexión exitosa"))
-    .catch(err=>console.log(err))
-
 const app = express()
 
 app.use(express.json())

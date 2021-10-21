@@ -3,13 +3,16 @@ const mongoose = require("mongoose")
 const DeckSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
     numero:{
-        type: Number
+        type: String,
+        required: true
     },
     color: {
-        type: String
+        type: String,
+        required: true
     },
     palo: {
-        type: String
+        type: String,
+        required: true
     }
 }, {collection: 'deck'})
 
