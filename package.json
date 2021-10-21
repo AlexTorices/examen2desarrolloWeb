@@ -1,0 +1,23 @@
+{
+  "name": "examen2desarrolloweb",
+  "version": "1.0.0",
+  "description": "examen 2 desarrollo web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexTorices/examen2desarrolloWeb.git"
+  },
+  "author": "Alejandro Torices Oliva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexTorices/examen2desarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/AlexTorices/examen2desarrolloWeb#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  }
+}
